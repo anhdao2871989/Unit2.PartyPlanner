@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Party Catalog</title>
+</head>
+<body>
+    <h1>Party Planner</h1>
+    <form id="partyForm">
+        <fieldset>
+            <label for="partyName">Party Name:</label>
+            <input id="partyName" type="text" placeholder="">
+
+            <label for="partyInfo">Party Description:</label>
+            <input id="partyInfo" type="text">
+
+            <label for="partyDateTime">Party Date/Time:</label>
+            <input id="partyDateTime" type="text" placeholder="">
+
+            <label for="partyLocation">Party Location:</label>
+            <input id="partyLocation" type="text">
+        </fieldset>
+
+        <button>Add New Party</button>
+    </form>
+
+    <main id="partyList"></main>
+
+    <script src="party.js"></script>
+</body>
+</html>
